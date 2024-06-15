@@ -45,6 +45,5 @@ button {
 
 button:hover {
     cursor: pointer;
-    height: 42px;
-    width: 142px;
+    transform: scale(1.15);
 }
