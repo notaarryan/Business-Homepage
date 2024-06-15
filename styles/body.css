@@ -1,5 +1,5 @@
 .background {
-    background-image: url(homepage/office.webp);
+    background-image: url("/homepage/office.jpg");
     background-size: cover;
     background-position: center;
     height: 600px;
