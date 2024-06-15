@@ -1,0 +1,32 @@
+.image-block {
+    background-image: url(/styles/homepage/istockphoto-1460755337-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+.img {
+    background-color: red;
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 2000px;
+    background-color: black;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
