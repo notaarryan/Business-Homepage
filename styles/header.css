@@ -1,20 +1,29 @@
 .header {
+    margin-left: 100px;
     width: 1240px;
     height: 104px;
+    background-color: #FF9C1A;
     display: flex;
     align-items: center;
     flex-direction: row;
     font-family: pacifico,Arial, Helvetica, sans-serif;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .nameDiv {
-    margin-left: 200px;
     font-size: 25px;
+    flex: 1;
+    background-color: red;
 }
 
 .lastName {
     color: #FF9C1A;
+}
+
+.darkModeDiv {
+    height: 50px;
+    max-width: 50px;
+    min-width: 50px;
 }
 
 .darkMode {

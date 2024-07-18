@@ -1,27 +1,32 @@
 .navDiv {
     margin-top: 100px;
+    /* background-color: red; */
     background-color: #E1E8EF;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     height: 85px;
-    width: 500px;
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 500px;
     position: absolute;
-    right: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    right: 50px;
+    left: 500px;
 }
 
 .iconDiv {
-    border: none;
-    height: 80px;
-    width: 80px;
-}
-
-.iconButton {
-    background-color: #c7cdcd;
+    margin-top: 2px;
     border: none;
     height: 80px;
     width: 100%;
+}
+
+.iconButton {
+    background-color: rgba(199, 205, 205,0.5);
+    border: none;
+    height: 80px;
+    width: 80px;
 }
