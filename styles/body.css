@@ -40,6 +40,32 @@
     }
 }
 
+@media (max-width:400px) {
+    .navContainer {
+        .navContainer {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            height: 60px;
+        }
+    }
+
+    .iconButton {
+        width: 50px;
+        padding-top: 2px;
+        border: none;
+        border-radius: 7.5px;
+        background-color: rgba(183, 181, 181, 0.479);
+        cursor: pointer;
+    }
+    .icon {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    
+    .iconText {
+        margin-top: 2.5px;
+    }
+}
+
 .icon {
     margin-top: 20px;
     margin-bottom: 0px;
