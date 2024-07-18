@@ -1,0 +1,30 @@
+.header {
+    margin-left: 100px;
+    width: 1240px;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    font-family: pacifico,Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+}
+
+.nameDiv {
+    font-size: 25px;
+}
+
+.lastName {
+    color: #FF9C1A;
+}
+
+.darkMode {
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 35px;
+    background-color: #EBF2FA;
+}
+
+.darkModeIcon {
+    height: 25px;
+}

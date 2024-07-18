@@ -1,0 +1,18 @@
+body {
+    background-color: #F2F5F9;
+}
+
+.navDiv {
+    margin-top: 100px;
+    background-color: #E1E8EF;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    height: 85px;
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    right: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
