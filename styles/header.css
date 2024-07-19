@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    font-family: pacifico,Arial, Helvetica, sans-serif;
+    font-family: pacifico, Arial, Helvetica, sans-serif;
     justify-content: space-between;
     flex-shrink: 0;
 }
@@ -33,11 +33,17 @@
 .darkMode {
     height: 50px;
     width: 50px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     border: none;
     border-radius: 35px;
     background-color: #EBF2FA;
     margin-right: 100px;
+}
+
+@media (max-width:550px) {
+    .darkModeDiv {
+        display: none;
+    }
 }
 
 .darkModeIcon {
